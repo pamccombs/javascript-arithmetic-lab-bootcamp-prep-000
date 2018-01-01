@@ -11,8 +11,8 @@ function divide(a, b) {
   return a /= b
 }
 function inc(n) {
-  return parseInt(n++)
+  return n
 }
 function dec(n) {
-  return parseInt(n--)
+  return n
 }
